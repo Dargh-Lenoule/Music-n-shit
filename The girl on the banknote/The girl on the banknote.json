@@ -1,7 +1,7 @@
 {
 	"name": "The girl on the banknote",
 	"format": "BeepBox",
-	"version": 2,
+	"version": 4,
 	"scale": "Major",
 	"key": "C",
 	"introBars": 0,
@@ -10,15 +10,34 @@
 	"ticksPerBeat": 4,
 	"beatsPerMinute": 150,
 	"reverb": 0,
+	"masterGain": 1,
+	"compressionThreshold": 1,
+	"limitThreshold": 1,
+	"limitDecay": 4,
+	"limitRise": 4000,
+	"limitRatio": 1,
+	"compressionRatio": 1,
 	"channels": [
 		{
 			"type": "pitch",
+			"name": "",
 			"octaveScrollBar": 4,
 			"instruments": [
 				{
 					"type": "FM",
 					"volume": 8,
 					"pan": 0,
+					"panDelay": 10,
+					"arpeggioSpeed": 12,
+					"fastTwoNoteArp": false,
+					"tieNoteTransition": false,
+					"clicklessTransition": false,
+					"aliases": false,
+					"vibrato": "none",
+					"vibratoDepth": 0,
+					"vibratoDelay": 0,
+					"vibratoSpeed": 10,
+					"vibratoType": 0,
 					"detune": 0,
 					"effects": "reverb",
 					"preset": 134,
@@ -27,7 +46,6 @@
 					"filterCutoffHz": 8000,
 					"filterResonance": 0,
 					"filterEnvelope": "twang 2",
-					"vibrato": "none",
 					"algorithm": "1←(2 3←4)",
 					"feedbackType": "4⟲",
 					"feedbackAmplitude": 9,
@@ -36,22 +54,30 @@
 						{
 							"frequency": "1×",
 							"amplitude": 15,
-							"envelope": "custom"
+							"envelope": "custom",
+							"waveform": "sine",
+							"pulseWidth": 5
 						},
 						{
 							"frequency": "4×",
 							"amplitude": 8,
-							"envelope": "steady"
+							"envelope": "steady",
+							"waveform": "sine",
+							"pulseWidth": 5
 						},
 						{
 							"frequency": "3×",
 							"amplitude": 6,
-							"envelope": "steady"
+							"envelope": "steady",
+							"waveform": "sine",
+							"pulseWidth": 5
 						},
 						{
 							"frequency": "5×",
 							"amplitude": 7,
-							"envelope": "steady"
+							"envelope": "steady",
+							"waveform": "sine",
+							"pulseWidth": 5
 						}
 					]
 				}
@@ -68,12 +94,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -85,12 +113,14 @@
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -102,12 +132,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -119,12 +151,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -136,12 +170,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -153,12 +189,14 @@
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -170,12 +208,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -187,12 +227,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -209,12 +251,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -226,12 +270,14 @@
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -243,12 +289,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -260,12 +308,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -277,12 +327,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -294,12 +346,14 @@
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -311,12 +365,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -328,12 +384,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -350,12 +408,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -367,12 +427,14 @@
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -384,12 +446,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -401,12 +465,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -418,12 +484,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -435,12 +503,14 @@
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -452,12 +522,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -469,12 +541,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -491,12 +565,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -508,12 +584,14 @@
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -525,12 +603,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -542,12 +622,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -559,12 +641,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -576,12 +660,14 @@
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -593,12 +679,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -610,12 +698,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -632,12 +722,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -649,12 +741,14 @@
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -666,12 +760,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -683,12 +779,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -700,12 +798,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -717,12 +817,14 @@
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -734,12 +836,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -751,12 +855,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -773,12 +879,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -790,12 +898,14 @@
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -807,12 +917,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -824,12 +936,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -841,12 +955,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -858,12 +974,14 @@
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -875,12 +993,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -892,12 +1012,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -914,12 +1036,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -931,12 +1055,14 @@
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -948,12 +1074,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -965,12 +1093,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -982,12 +1112,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -999,12 +1131,14 @@
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1016,12 +1150,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1033,12 +1169,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -1055,12 +1193,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1072,12 +1212,14 @@
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1089,12 +1231,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1106,12 +1250,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1123,12 +1269,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1140,12 +1288,14 @@
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1157,12 +1307,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1174,12 +1326,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -1196,12 +1350,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1213,12 +1369,14 @@
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1230,12 +1388,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1247,12 +1407,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1264,12 +1426,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1281,12 +1445,14 @@
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1298,12 +1464,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1315,12 +1483,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -1379,21 +1549,29 @@
 				0,
 				0,
 				0,
-				0,
-				0,
-				0,
-				0,
 				0
 			]
 		},
 		{
 			"type": "pitch",
+			"name": "",
 			"octaveScrollBar": 2,
 			"instruments": [
 				{
 					"type": "harmonics",
 					"volume": 0,
 					"pan": 0,
+					"panDelay": 10,
+					"arpeggioSpeed": 12,
+					"fastTwoNoteArp": false,
+					"tieNoteTransition": false,
+					"clicklessTransition": false,
+					"aliases": false,
+					"vibrato": "none",
+					"vibratoDepth": 0,
+					"vibratoDelay": 0,
+					"vibratoSpeed": 10,
+					"vibratoType": 0,
 					"detune": 0,
 					"effects": "reverb",
 					"preset": 136,
@@ -1403,7 +1581,6 @@
 					"filterResonance": 14,
 					"filterEnvelope": "twang 2",
 					"interval": "piano",
-					"vibrato": "none",
 					"harmonics": [
 						100,
 						100,
@@ -1448,12 +1625,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1465,12 +1644,14 @@
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1482,12 +1663,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1499,12 +1682,14 @@
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1516,12 +1701,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1533,12 +1720,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1550,12 +1739,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1567,12 +1758,14 @@
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -1589,12 +1782,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1606,12 +1801,14 @@
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1623,12 +1820,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1640,12 +1839,14 @@
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1657,12 +1858,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1674,12 +1877,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1691,12 +1896,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1708,12 +1915,14 @@
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1725,12 +1934,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1742,12 +1953,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -1834,21 +2047,29 @@
 				1,
 				2,
 				1,
-				0,
-				0,
-				0,
-				0,
 				0
 			]
 		},
 		{
 			"type": "pitch",
+			"name": "",
 			"octaveScrollBar": 1,
 			"instruments": [
 				{
 					"type": "custom chip",
 					"volume": 0,
 					"pan": 0,
+					"panDelay": 10,
+					"arpeggioSpeed": 12,
+					"fastTwoNoteArp": false,
+					"tieNoteTransition": false,
+					"clicklessTransition": false,
+					"aliases": false,
+					"vibrato": "none",
+					"vibratoDepth": 0,
+					"vibratoDelay": 0,
+					"vibratoSpeed": 10,
+					"vibratoType": 0,
 					"detune": 0,
 					"effects": "none",
 					"preset": 75,
@@ -1859,7 +2080,6 @@
 					"filterEnvelope": "steady",
 					"wave": "square",
 					"interval": "union",
-					"vibrato": "none",
 					"customChipWave": {
 						"0": -24,
 						"1": -20,
@@ -2007,12 +2227,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2024,12 +2246,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2041,12 +2265,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2058,12 +2284,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -2080,12 +2308,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2097,12 +2327,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2114,12 +2346,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2131,12 +2365,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -2223,21 +2459,29 @@
 				1,
 				2,
 				1,
-				2,
-				0,
-				0,
-				0,
-				0
+				2
 			]
 		},
 		{
 			"type": "pitch",
+			"name": "",
 			"octaveScrollBar": 3,
 			"instruments": [
 				{
 					"type": "FM",
 					"volume": 6,
 					"pan": 0,
+					"panDelay": 10,
+					"arpeggioSpeed": 12,
+					"fastTwoNoteArp": false,
+					"tieNoteTransition": false,
+					"clicklessTransition": false,
+					"aliases": false,
+					"vibrato": "none",
+					"vibratoDepth": 0,
+					"vibratoDelay": 0,
+					"vibratoSpeed": 10,
+					"vibratoType": 0,
 					"detune": 0,
 					"effects": "reverb",
 					"preset": 199,
@@ -2246,7 +2490,6 @@
 					"filterCutoffHz": 2000,
 					"filterResonance": 14,
 					"filterEnvelope": "twang 1",
-					"vibrato": "none",
 					"algorithm": "(1 2 3)←4",
 					"feedbackType": "1⟲ 2⟲ 3⟲",
 					"feedbackAmplitude": 0,
@@ -2255,22 +2498,30 @@
 						{
 							"frequency": "1×",
 							"amplitude": 9,
-							"envelope": "custom"
+							"envelope": "custom",
+							"waveform": "sine",
+							"pulseWidth": 5
 						},
 						{
 							"frequency": "6×",
 							"amplitude": 9,
-							"envelope": "custom"
+							"envelope": "custom",
+							"waveform": "sine",
+							"pulseWidth": 5
 						},
 						{
 							"frequency": "11×",
 							"amplitude": 9,
-							"envelope": "custom"
+							"envelope": "custom",
+							"waveform": "sine",
+							"pulseWidth": 5
 						},
 						{
 							"frequency": "20×",
 							"amplitude": 6,
-							"envelope": "twang 1"
+							"envelope": "twang 1",
+							"waveform": "sine",
+							"pulseWidth": 5
 						}
 					]
 				}
@@ -2287,12 +2538,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2304,12 +2557,14 @@
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2321,12 +2576,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2338,12 +2595,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2355,12 +2614,14 @@
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2372,12 +2633,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2389,12 +2652,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -2411,12 +2676,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2428,12 +2695,14 @@
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2445,12 +2714,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2462,12 +2733,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2479,12 +2752,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2496,12 +2771,14 @@
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2513,12 +2790,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2530,12 +2809,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -2622,21 +2903,29 @@
 				1,
 				1,
 				0,
-				0,
-				0,
-				0,
-				0,
 				0
 			]
 		},
 		{
 			"type": "drum",
+			"name": "",
 			"octaveScrollBar": 0,
 			"instruments": [
 				{
 					"type": "noise",
 					"volume": 0,
 					"pan": -100,
+					"panDelay": 10,
+					"arpeggioSpeed": 12,
+					"fastTwoNoteArp": false,
+					"tieNoteTransition": false,
+					"clicklessTransition": false,
+					"aliases": false,
+					"vibrato": 0,
+					"vibratoDepth": 0,
+					"vibratoDelay": 0,
+					"vibratoSpeed": 10,
+					"vibratoType": 0,
 					"detune": 0,
 					"effects": "none",
 					"preset": 69,
@@ -2660,12 +2949,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -2677,12 +2968,14 @@
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -2694,12 +2987,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -2711,12 +3006,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -2728,12 +3025,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -2745,12 +3044,14 @@
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -2762,12 +3063,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -2779,12 +3082,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						}
@@ -2801,12 +3106,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -2818,12 +3125,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 31,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -2835,12 +3144,14 @@
 								{
 									"tick": 31,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						}
@@ -2926,22 +3237,30 @@
 				1,
 				1,
 				1,
-				0,
-				0,
-				0,
-				0,
 				0,
 				0
 			]
 		},
 		{
 			"type": "drum",
+			"name": "",
 			"octaveScrollBar": 0,
 			"instruments": [
 				{
 					"type": "noise",
 					"volume": 0,
 					"pan": 100,
+					"panDelay": 10,
+					"arpeggioSpeed": 12,
+					"fastTwoNoteArp": false,
+					"tieNoteTransition": false,
+					"clicklessTransition": false,
+					"aliases": false,
+					"vibrato": 0,
+					"vibratoDepth": 0,
+					"vibratoDelay": 0,
+					"vibratoSpeed": 10,
+					"vibratoType": 0,
 					"detune": 0,
 					"effects": "none",
 					"preset": 69,
@@ -2965,12 +3284,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -2982,12 +3303,14 @@
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -2999,12 +3322,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -3016,12 +3341,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -3033,12 +3360,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -3050,12 +3379,14 @@
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -3067,12 +3398,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -3084,12 +3417,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						}
@@ -3106,12 +3441,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -3123,12 +3460,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 31,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -3140,12 +3479,14 @@
 								{
 									"tick": 31,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						}
@@ -3232,21 +3573,29 @@
 				1,
 				1,
 				0,
-				0,
-				0,
-				0,
-				0,
 				0
 			]
 		},
 		{
 			"type": "mod",
+			"name": "",
 			"octaveScrollBar": 0,
 			"instruments": [
 				{
 					"type": "mod",
 					"volume": 0,
 					"pan": 0,
+					"panDelay": 10,
+					"arpeggioSpeed": 12,
+					"fastTwoNoteArp": false,
+					"tieNoteTransition": false,
+					"clicklessTransition": false,
+					"aliases": false,
+					"vibrato": 0,
+					"vibratoDepth": 0,
+					"vibratoDelay": 0,
+					"vibratoSpeed": 10,
+					"vibratoType": 0,
 					"detune": 0,
 					"effects": "reverb",
 					"preset": 650,
@@ -3301,12 +3650,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 41
+									"volume": 119,
+									"forMod": true
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 46
+									"volume": 133,
+									"forMod": true
 								}
 							]
 						}
@@ -3323,12 +3674,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 46
+									"volume": 133,
+									"forMod": true
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 50
+									"volume": 145,
+									"forMod": true
 								}
 							]
 						}
@@ -3345,12 +3698,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 50
+									"volume": 145,
+									"forMod": true
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 54
+									"volume": 157,
+									"forMod": true
 								}
 							]
 						}
@@ -3367,12 +3722,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 54
+									"volume": 157,
+									"forMod": true
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 59
+									"volume": 171,
+									"forMod": true
 								}
 							]
 						}
@@ -3389,12 +3746,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 59
+									"volume": 171,
+									"forMod": true
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 54
+									"volume": 157,
+									"forMod": true
 								}
 							]
 						}
@@ -3411,12 +3770,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 54
+									"volume": 157,
+									"forMod": true
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 50
+									"volume": 145,
+									"forMod": true
 								}
 							]
 						}
@@ -3433,12 +3794,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 50
+									"volume": 145,
+									"forMod": true
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 46
+									"volume": 133,
+									"forMod": true
 								}
 							]
 						}
@@ -3455,12 +3818,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 46
+									"volume": 133,
+									"forMod": true
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 41
+									"volume": 119,
+									"forMod": true
 								}
 							]
 						}
@@ -3520,10 +3885,6 @@
 				6,
 				7,
 				8,
-				0,
-				0,
-				0,
-				0,
 				0,
 				0,
 				0,
