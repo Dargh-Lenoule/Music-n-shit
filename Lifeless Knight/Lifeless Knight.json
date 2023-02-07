@@ -7,7 +7,7 @@
 	"introBars": 8,
 	"loopBars": 24,
 	"beatsPerBar": 6,
-	"ticksPerBeat": 4,
+	"ticksPerBeat": 8,
 	"beatsPerMinute": 130,
 	"reverb": 0,
 	"masterGain": 1,
@@ -136,7 +136,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -150,13 +150,13 @@
 							],
 							"points": [
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 3,
+									"tick": 6,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -169,64 +169,7 @@
 							],
 							"points": [
 								{
-									"tick": 3,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 4,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								31
-							],
-							"points": [
-								{
-									"tick": 4,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
 									"tick": 6,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								31
-							],
-							"points": [
-								{
-									"tick": 6,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 7,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								31
-							],
-							"points": [
-								{
-									"tick": 7,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -241,7 +184,7 @@
 						},
 						{
 							"pitches": [
-								35
+								31
 							],
 							"points": [
 								{
@@ -251,7 +194,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 10,
+									"tick": 12,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -260,74 +203,17 @@
 						},
 						{
 							"pitches": [
-								35
+								31
 							],
 							"points": [
-								{
-									"tick": 10,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 11,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								35
-							],
-							"points": [
-								{
-									"tick": 11,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
 								{
 									"tick": 12,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								24
-							],
-							"points": [
-								{
-									"tick": 12,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
 								},
 								{
 									"tick": 14,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								24
-							],
-							"points": [
-								{
-									"tick": 14,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 15,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -336,11 +222,11 @@
 						},
 						{
 							"pitches": [
-								24
+								31
 							],
 							"points": [
 								{
-									"tick": 15,
+									"tick": 14,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -355,7 +241,7 @@
 						},
 						{
 							"pitches": [
-								31
+								35
 							],
 							"points": [
 								{
@@ -365,47 +251,9 @@
 									"forMod": false
 								},
 								{
-									"tick": 18,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								31
-							],
-							"points": [
-								{
-									"tick": 18,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 19,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								31
-							],
-							"points": [
-								{
-									"tick": 19,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 67,
+									"volume": 100,
 									"forMod": false
 								}
 							]
@@ -418,30 +266,11 @@
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 22,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								35
-							],
-							"points": [
-								{
-									"tick": 22,
-									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 23,
+									"tick": 22,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -454,13 +283,184 @@
 							],
 							"points": [
 								{
-									"tick": 23,
+									"tick": 22,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
 									"tick": 24,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								24
+							],
+							"points": [
+								{
+									"tick": 24,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 28,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								24
+							],
+							"points": [
+								{
+									"tick": 28,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								},
+								{
+									"tick": 30,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								24
+							],
+							"points": [
+								{
+									"tick": 30,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								},
+								{
+									"tick": 32,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								31
+							],
+							"points": [
+								{
+									"tick": 32,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 36,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								31
+							],
+							"points": [
+								{
+									"tick": 36,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								},
+								{
+									"tick": 38,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								31
+							],
+							"points": [
+								{
+									"tick": 38,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								},
+								{
+									"tick": 40,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								35
+							],
+							"points": [
+								{
+									"tick": 40,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 44,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								35
+							],
+							"points": [
+								{
+									"tick": 44,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								},
+								{
+									"tick": 46,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								35
+							],
+							"points": [
+								{
+									"tick": 46,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								},
+								{
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -483,7 +483,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -497,13 +497,13 @@
 							],
 							"points": [
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 3,
+									"tick": 6,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -516,64 +516,7 @@
 							],
 							"points": [
 								{
-									"tick": 3,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 4,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								31
-							],
-							"points": [
-								{
-									"tick": 4,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
 									"tick": 6,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								31
-							],
-							"points": [
-								{
-									"tick": 6,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 7,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								31
-							],
-							"points": [
-								{
-									"tick": 7,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -588,7 +531,7 @@
 						},
 						{
 							"pitches": [
-								35
+								31
 							],
 							"points": [
 								{
@@ -598,7 +541,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 10,
+									"tick": 12,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -607,74 +550,17 @@
 						},
 						{
 							"pitches": [
-								35
+								31
 							],
 							"points": [
-								{
-									"tick": 10,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 11,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								35
-							],
-							"points": [
-								{
-									"tick": 11,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
 								{
 									"tick": 12,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								24
-							],
-							"points": [
-								{
-									"tick": 12,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
 								},
 								{
 									"tick": 14,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								24
-							],
-							"points": [
-								{
-									"tick": 14,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 15,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -683,11 +569,11 @@
 						},
 						{
 							"pitches": [
-								24
+								31
 							],
 							"points": [
 								{
-									"tick": 15,
+									"tick": 14,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -702,55 +588,169 @@
 						},
 						{
 							"pitches": [
-								34
+								35
 							],
 							"points": [
 								{
 									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 18,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								34
-							],
-							"points": [
-								{
-									"tick": 18,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 19,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								34
-							],
-							"points": [
-								{
-									"tick": 19,
-									"pitchBend": 0,
-									"volume": 67,
 									"forMod": false
 								},
 								{
 									"tick": 20,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								35
+							],
+							"points": [
+								{
+									"tick": 20,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								},
+								{
+									"tick": 22,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								35
+							],
+							"points": [
+								{
+									"tick": 22,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								},
+								{
+									"tick": 24,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								24
+							],
+							"points": [
+								{
+									"tick": 24,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 28,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								24
+							],
+							"points": [
+								{
+									"tick": 28,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								},
+								{
+									"tick": 30,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								24
+							],
+							"points": [
+								{
+									"tick": 30,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								},
+								{
+									"tick": 32,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								34
+							],
+							"points": [
+								{
+									"tick": 32,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 36,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								34
+							],
+							"points": [
+								{
+									"tick": 36,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								},
+								{
+									"tick": 38,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								34
+							],
+							"points": [
+								{
+									"tick": 38,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								},
+								{
+									"tick": 40,
 									"pitchBend": -1,
 									"volume": 67,
 									"forMod": false
@@ -763,13 +763,13 @@
 							],
 							"points": [
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 22,
+									"tick": 44,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -782,13 +782,13 @@
 							],
 							"points": [
 								{
-									"tick": 22,
+									"tick": 44,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 23,
+									"tick": 46,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -801,13 +801,13 @@
 							],
 							"points": [
 								{
-									"tick": 23,
+									"tick": 46,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": -2,
 									"volume": 67,
 									"forMod": false
@@ -830,7 +830,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -844,13 +844,13 @@
 							],
 							"points": [
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 3,
+									"tick": 6,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -863,64 +863,7 @@
 							],
 							"points": [
 								{
-									"tick": 3,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 4,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								31
-							],
-							"points": [
-								{
-									"tick": 4,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
 									"tick": 6,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								31
-							],
-							"points": [
-								{
-									"tick": 6,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 7,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								31
-							],
-							"points": [
-								{
-									"tick": 7,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -935,7 +878,7 @@
 						},
 						{
 							"pitches": [
-								35
+								31
 							],
 							"points": [
 								{
@@ -945,7 +888,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 10,
+									"tick": 12,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -954,74 +897,17 @@
 						},
 						{
 							"pitches": [
-								35
+								31
 							],
 							"points": [
-								{
-									"tick": 10,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 11,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								35
-							],
-							"points": [
-								{
-									"tick": 11,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
 								{
 									"tick": 12,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								24
-							],
-							"points": [
-								{
-									"tick": 12,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
 								},
 								{
 									"tick": 14,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								24
-							],
-							"points": [
-								{
-									"tick": 14,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 15,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -1030,11 +916,11 @@
 						},
 						{
 							"pitches": [
-								24
+								31
 							],
 							"points": [
 								{
-									"tick": 15,
+									"tick": 14,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -1049,7 +935,7 @@
 						},
 						{
 							"pitches": [
-								34
+								35
 							],
 							"points": [
 								{
@@ -1059,7 +945,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 18,
+									"tick": 20,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -1068,74 +954,17 @@
 						},
 						{
 							"pitches": [
-								34
+								35
 							],
 							"points": [
-								{
-									"tick": 18,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 19,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								34
-							],
-							"points": [
-								{
-									"tick": 19,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								38
-							],
-							"points": [
-								{
-									"tick": 20,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
 								},
 								{
 									"tick": 22,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								38
-							],
-							"points": [
-								{
-									"tick": 22,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 23,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -1144,17 +973,188 @@
 						},
 						{
 							"pitches": [
-								38
+								35
 							],
 							"points": [
 								{
-									"tick": 23,
+									"tick": 22,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
 									"tick": 24,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								24
+							],
+							"points": [
+								{
+									"tick": 24,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 28,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								24
+							],
+							"points": [
+								{
+									"tick": 28,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								},
+								{
+									"tick": 30,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								24
+							],
+							"points": [
+								{
+									"tick": 30,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								},
+								{
+									"tick": 32,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								34
+							],
+							"points": [
+								{
+									"tick": 32,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 36,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								34
+							],
+							"points": [
+								{
+									"tick": 36,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								},
+								{
+									"tick": 38,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								34
+							],
+							"points": [
+								{
+									"tick": 38,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								},
+								{
+									"tick": 40,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								38
+							],
+							"points": [
+								{
+									"tick": 40,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 44,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								38
+							],
+							"points": [
+								{
+									"tick": 44,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								},
+								{
+									"tick": 46,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								38
+							],
+							"points": [
+								{
+									"tick": 46,
+									"pitchBend": 0,
+									"volume": 67,
+									"forMod": false
+								},
+								{
+									"tick": 48,
 									"pitchBend": 2,
 									"volume": 67,
 									"forMod": false
@@ -1171,13 +1171,13 @@
 							],
 							"points": [
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 22,
+									"tick": 44,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -1190,13 +1190,13 @@
 							],
 							"points": [
 								{
-									"tick": 22,
+									"tick": 44,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -1204,21 +1204,6 @@
 							]
 						}
 					]
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
 				},
 				{
 					"notes": []
@@ -1277,68 +1262,85 @@
 			"name": "",
 			"instruments": [
 				{
-					"type": "chip",
-					"volume": 20,
-					"eqFilter": [
-						{
-							"type": "low-pass",
-							"cutoffHz": 2378.41,
-							"linearGain": 1
-						},
-						{
-							"type": "peak",
-							"cutoffHz": 707.11,
-							"linearGain": 1.4142
-						}
-					],
+					"type": "FM",
+					"volume": 12,
+					"eqFilter": [],
 					"eqFilterType": false,
 					"eqSimpleCut": 10,
 					"eqSimplePeak": 0,
-					"eqSubFilters0": [
-						{
-							"type": "low-pass",
-							"cutoffHz": 2378.41,
-							"linearGain": 1
-						},
-						{
-							"type": "peak",
-							"cutoffHz": 707.11,
-							"linearGain": 1.4142
-						}
-					],
+					"eqSubFilters0": [],
 					"effects": [
 						"panning",
+						"vibrato",
 						"note filter",
+						"chorus",
 						"reverb"
 					],
-					"noteFilterType": false,
-					"noteSimpleCut": 10,
-					"noteSimplePeak": 0,
+					"vibrato": "delayed",
+					"vibratoDepth": 0.3,
+					"vibratoDelay": 18.5,
+					"vibratoSpeed": 10,
+					"vibratoType": 0,
+					"noteFilterType": true,
+					"noteSimpleCut": 7,
+					"noteSimplePeak": 1,
 					"noteFilter": [
 						{
 							"type": "low-pass",
-							"cutoffHz": 6727.17,
-							"linearGain": 0.7071
+							"cutoffHz": 3828.43,
+							"linearGain": 0.5
 						}
 					],
-					"noteSubFilters0": [
+					"noteSubFilters1": [
 						{
 							"type": "low-pass",
-							"cutoffHz": 6727.17,
-							"linearGain": 0.7071
+							"cutoffHz": 3828.43,
+							"linearGain": 0.5
 						}
 					],
 					"pan": 0,
 					"panDelay": 10,
+					"chorus": 43,
 					"reverb": 0,
-					"fadeInSeconds": 0.0125,
-					"fadeOutTicks": -12,
-					"wave": "1/8 pulse",
-					"unison": "none",
+					"fadeInSeconds": 0,
+					"fadeOutTicks": 48,
+					"algorithm": "1 2 3 4",
+					"feedbackType": "1⟲ 2⟲ 3⟲ 4⟲",
+					"feedbackAmplitude": 4,
+					"operators": [
+						{
+							"frequency": "1×",
+							"amplitude": 10,
+							"waveform": "sine",
+							"pulseWidth": 5
+						},
+						{
+							"frequency": "3×",
+							"amplitude": 7,
+							"waveform": "sine",
+							"pulseWidth": 5
+						},
+						{
+							"frequency": "6×",
+							"amplitude": 4,
+							"waveform": "sine",
+							"pulseWidth": 5
+						},
+						{
+							"frequency": "13×",
+							"amplitude": 4,
+							"waveform": "sine",
+							"pulseWidth": 5
+						}
+					],
 					"envelopes": [
 						{
 							"target": "noteFilterAllFreqs",
-							"envelope": "twang 3"
+							"envelope": "twang 2"
+						},
+						{
+							"target": "feedbackAmplitude",
+							"envelope": "twang 1"
 						}
 					]
 				}
@@ -1348,61 +1350,74 @@
 					"notes": [
 						{
 							"pitches": [
-								12
+								83
 							],
 							"points": [
 								{
-									"tick": 0,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 4,
+									"tick": 17,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								}
-							],
-							"continuesLastPattern": false
-						}
-					]
-				},
-				{
-					"notes": [
-						{
-							"pitches": [
-								12
-							],
-							"points": [
-								{
-									"tick": 0,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 4,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							],
-							"continuesLastPattern": false
+							]
 						},
 						{
 							"pitches": [
-								16
+								83
 							],
 							"points": [
 								{
-									"tick": 20,
+									"tick": 17,
+									"pitchBend": 0,
+									"volume": 50,
+									"forMod": false
+								},
+								{
+									"tick": 18,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								83
+							],
+							"points": [
+								{
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 41,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								83
+							],
+							"points": [
+								{
+									"tick": 41,
+									"pitchBend": 0,
+									"volume": 50,
+									"forMod": false
+								},
+								{
+									"tick": 42,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -1410,18 +1425,6 @@
 							]
 						}
 					]
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
 				},
 				{
 					"notes": []
@@ -1458,31 +1461,31 @@
 				0,
 				0,
 				1,
-				2,
 				1,
-				2,
 				1,
-				2,
 				1,
-				2,
 				1,
-				2,
 				1,
-				2,
 				1,
-				2,
 				1,
-				2,
 				1,
-				2,
 				1,
-				2,
 				1,
-				2,
 				1,
-				2
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1
 			],
-			"octaveScrollBar": 0
+			"octaveScrollBar": 5
 		},
 		{
 			"type": "pitch",
@@ -1579,7 +1582,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -1593,13 +1596,13 @@
 							],
 							"points": [
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -1612,13 +1615,13 @@
 							],
 							"points": [
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -1631,13 +1634,13 @@
 							],
 							"points": [
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -1650,13 +1653,13 @@
 							],
 							"points": [
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -1669,13 +1672,13 @@
 							],
 							"points": [
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -1698,7 +1701,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -1712,13 +1715,13 @@
 							],
 							"points": [
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -1731,13 +1734,13 @@
 							],
 							"points": [
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -1750,13 +1753,13 @@
 							],
 							"points": [
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -1769,19 +1772,19 @@
 							],
 							"points": [
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 19,
+									"tick": 38,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": -1,
 									"volume": 100,
 									"forMod": false
@@ -1794,19 +1797,19 @@
 							],
 							"points": [
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 23,
+									"tick": 46,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": -2,
 									"volume": 100,
 									"forMod": false
@@ -1829,7 +1832,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -1843,13 +1846,13 @@
 							],
 							"points": [
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -1862,13 +1865,13 @@
 							],
 							"points": [
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -1881,13 +1884,13 @@
 							],
 							"points": [
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -1900,13 +1903,13 @@
 							],
 							"points": [
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -1919,19 +1922,19 @@
 							],
 							"points": [
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 23,
+									"tick": 46,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": 2,
 									"volume": 100,
 									"forMod": false
@@ -1939,21 +1942,6 @@
 							]
 						}
 					]
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
 				},
 				{
 					"notes": []
@@ -2127,7 +2115,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2141,13 +2129,13 @@
 							],
 							"points": [
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2160,13 +2148,13 @@
 							],
 							"points": [
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2179,13 +2167,13 @@
 							],
 							"points": [
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2198,13 +2186,13 @@
 							],
 							"points": [
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2217,13 +2205,13 @@
 							],
 							"points": [
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2246,7 +2234,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2260,13 +2248,13 @@
 							],
 							"points": [
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2279,13 +2267,13 @@
 							],
 							"points": [
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2298,13 +2286,13 @@
 							],
 							"points": [
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2317,13 +2305,13 @@
 							],
 							"points": [
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2336,13 +2324,13 @@
 							],
 							"points": [
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2365,7 +2353,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2379,13 +2367,13 @@
 							],
 							"points": [
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2398,13 +2386,13 @@
 							],
 							"points": [
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2417,13 +2405,13 @@
 							],
 							"points": [
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2436,13 +2424,13 @@
 							],
 							"points": [
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2455,13 +2443,13 @@
 							],
 							"points": [
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2484,7 +2472,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2498,13 +2486,13 @@
 							],
 							"points": [
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2517,13 +2505,13 @@
 							],
 							"points": [
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2536,13 +2524,13 @@
 							],
 							"points": [
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2555,13 +2543,13 @@
 							],
 							"points": [
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2574,13 +2562,13 @@
 							],
 							"points": [
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2603,7 +2591,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2617,13 +2605,13 @@
 							],
 							"points": [
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2636,13 +2624,13 @@
 							],
 							"points": [
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 6,
+									"tick": 12,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2655,13 +2643,13 @@
 							],
 							"points": [
 								{
-									"tick": 6,
+									"tick": 12,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2674,13 +2662,13 @@
 							],
 							"points": [
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 10,
+									"tick": 20,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2693,13 +2681,13 @@
 							],
 							"points": [
 								{
-									"tick": 10,
+									"tick": 20,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2712,13 +2700,13 @@
 							],
 							"points": [
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 14,
+									"tick": 28,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2731,13 +2719,13 @@
 							],
 							"points": [
 								{
-									"tick": 14,
+									"tick": 28,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2750,13 +2738,13 @@
 							],
 							"points": [
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 18,
+									"tick": 36,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2769,13 +2757,13 @@
 							],
 							"points": [
 								{
-									"tick": 18,
+									"tick": 36,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2788,13 +2776,13 @@
 							],
 							"points": [
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 22,
+									"tick": 44,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2807,13 +2795,13 @@
 							],
 							"points": [
 								{
-									"tick": 22,
+									"tick": 44,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2836,7 +2824,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2850,45 +2838,7 @@
 							],
 							"points": [
 								{
-									"tick": 2,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
 									"tick": 4,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								36
-							],
-							"points": [
-								{
-									"tick": 4,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 6,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								34
-							],
-							"points": [
-								{
-									"tick": 6,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2903,7 +2853,7 @@
 						},
 						{
 							"pitches": [
-								35
+								36
 							],
 							"points": [
 								{
@@ -2913,45 +2863,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 10,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								36
-							],
-							"points": [
-								{
-									"tick": 10,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
 									"tick": 12,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								35
-							],
-							"points": [
-								{
-									"tick": 12,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 14,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -2964,51 +2876,13 @@
 							],
 							"points": [
 								{
-									"tick": 14,
+									"tick": 12,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
 									"tick": 16,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								33
-							],
-							"points": [
-								{
-									"tick": 16,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 18,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								33
-							],
-							"points": [
-								{
-									"tick": 18,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 20,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3021,13 +2895,127 @@
 							],
 							"points": [
 								{
+									"tick": 16,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 20,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								36
+							],
+							"points": [
+								{
 									"tick": 20,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 22,
+									"tick": 24,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								35
+							],
+							"points": [
+								{
+									"tick": 24,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 28,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								34
+							],
+							"points": [
+								{
+									"tick": 28,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 32,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								33
+							],
+							"points": [
+								{
+									"tick": 32,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 36,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								33
+							],
+							"points": [
+								{
+									"tick": 36,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 40,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								35
+							],
+							"points": [
+								{
+									"tick": 40,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 44,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3040,13 +3028,13 @@
 							],
 							"points": [
 								{
-									"tick": 22,
+									"tick": 44,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3069,7 +3057,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3083,13 +3071,13 @@
 							],
 							"points": [
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3102,13 +3090,13 @@
 							],
 							"points": [
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 6,
+									"tick": 12,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3121,13 +3109,13 @@
 							],
 							"points": [
 								{
-									"tick": 6,
+									"tick": 12,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3140,13 +3128,13 @@
 							],
 							"points": [
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 10,
+									"tick": 20,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3159,13 +3147,13 @@
 							],
 							"points": [
 								{
-									"tick": 10,
+									"tick": 20,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3178,13 +3166,13 @@
 							],
 							"points": [
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 14,
+									"tick": 28,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3197,13 +3185,13 @@
 							],
 							"points": [
 								{
-									"tick": 14,
+									"tick": 28,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3216,13 +3204,13 @@
 							],
 							"points": [
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 18,
+									"tick": 36,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3235,13 +3223,13 @@
 							],
 							"points": [
 								{
-									"tick": 18,
+									"tick": 36,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3254,13 +3242,13 @@
 							],
 							"points": [
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 22,
+									"tick": 44,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3273,13 +3261,13 @@
 							],
 							"points": [
 								{
-									"tick": 22,
+									"tick": 44,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3302,7 +3290,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3316,13 +3304,13 @@
 							],
 							"points": [
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3335,13 +3323,13 @@
 							],
 							"points": [
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3354,13 +3342,13 @@
 							],
 							"points": [
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3373,13 +3361,13 @@
 							],
 							"points": [
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3392,13 +3380,13 @@
 							],
 							"points": [
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3421,7 +3409,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3435,13 +3423,13 @@
 							],
 							"points": [
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3454,13 +3442,13 @@
 							],
 							"points": [
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3473,13 +3461,13 @@
 							],
 							"points": [
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3492,13 +3480,13 @@
 							],
 							"points": [
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3511,13 +3499,13 @@
 							],
 							"points": [
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3525,253 +3513,6 @@
 							]
 						}
 					]
-				},
-				{
-					"notes": [
-						{
-							"pitches": [
-								40
-							],
-							"points": [
-								{
-									"tick": 0,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 4,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							],
-							"continuesLastPattern": false
-						},
-						{
-							"pitches": [
-								47
-							],
-							"points": [
-								{
-									"tick": 4,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 8,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								45
-							],
-							"points": [
-								{
-									"tick": 8,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 12,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								43
-							],
-							"points": [
-								{
-									"tick": 12,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 16,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								40
-							],
-							"points": [
-								{
-									"tick": 16,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 20,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								43
-							],
-							"points": [
-								{
-									"tick": 20,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 24,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						}
-					]
-				},
-				{
-					"notes": [
-						{
-							"pitches": [
-								40
-							],
-							"points": [
-								{
-									"tick": 0,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 4,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							],
-							"continuesLastPattern": false
-						},
-						{
-							"pitches": [
-								47
-							],
-							"points": [
-								{
-									"tick": 4,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 8,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								45
-							],
-							"points": [
-								{
-									"tick": 8,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 12,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								40
-							],
-							"points": [
-								{
-									"tick": 12,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 16,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								47
-							],
-							"points": [
-								{
-									"tick": 16,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 20,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								50
-							],
-							"points": [
-								{
-									"tick": 20,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 24,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						}
-					]
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
 				}
 			],
 			"sequence": [
@@ -3936,7 +3677,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3960,7 +3701,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -3985,7 +3726,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -4012,7 +3753,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -4039,7 +3780,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -4053,516 +3794,17 @@
 					"notes": [
 						{
 							"pitches": [
-								18,
 								28
 							],
 							"points": [
 								{
 									"tick": 0,
-									"pitchBend": 0,
-									"volume": 0,
-									"forMod": false
-								},
-								{
-									"tick": 24,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							],
-							"continuesLastPattern": true
-						}
-					]
-				},
-				{
-					"notes": [
-						{
-							"pitches": [
-								34,
-								22,
-								28
-							],
-							"points": [
-								{
-									"tick": 0,
-									"pitchBend": 0,
-									"volume": 0,
-									"forMod": false
-								},
-								{
-									"tick": 24,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							],
-							"continuesLastPattern": true
-						}
-					]
-				},
-				{
-					"notes": [
-						{
-							"pitches": [
-								40,
-								22,
-								34,
-								28
-							],
-							"points": [
-								{
-									"tick": 0,
-									"pitchBend": 0,
-									"volume": 0,
-									"forMod": false
-								},
-								{
-									"tick": 24,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							],
-							"continuesLastPattern": true
-						}
-					]
-				},
-				{
-					"notes": [
-						{
-							"pitches": [
-								55,
-								51
-							],
-							"points": [
-								{
-									"tick": 0,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 2,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							],
-							"continuesLastPattern": false
-						},
-						{
-							"pitches": [
-								55,
-								51
-							],
-							"points": [
-								{
-									"tick": 2,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 4,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								51,
-								48
-							],
-							"points": [
-								{
-									"tick": 4,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 6,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								51,
-								48
-							],
-							"points": [
-								{
-									"tick": 6,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
 									"tick": 8,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								58,
-								51
-							],
-							"points": [
-								{
-									"tick": 8,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 10,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								58,
-								51
-							],
-							"points": [
-								{
-									"tick": 10,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 12,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								51,
-								55
-							],
-							"points": [
-								{
-									"tick": 12,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 14,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								51,
-								55
-							],
-							"points": [
-								{
-									"tick": 14,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 16,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								53,
-								51
-							],
-							"points": [
-								{
-									"tick": 16,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 18,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								53,
-								51
-							],
-							"points": [
-								{
-									"tick": 18,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 20,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								55,
-								51
-							],
-							"points": [
-								{
-									"tick": 20,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 22,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								51,
-								55
-							],
-							"points": [
-								{
-									"tick": 22,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 24,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								}
-							]
-						}
-					]
-				},
-				{
-					"notes": [
-						{
-							"pitches": [
-								55
-							],
-							"points": [
-								{
-									"tick": 0,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 2,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							],
-							"continuesLastPattern": false
-						},
-						{
-							"pitches": [
-								55
-							],
-							"points": [
-								{
-									"tick": 2,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 4,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								55
-							],
-							"points": [
-								{
-									"tick": 4,
-									"pitchBend": 0,
-									"volume": 33,
-									"forMod": false
-								},
-								{
-									"tick": 6,
-									"pitchBend": 0,
-									"volume": 33,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								53
-							],
-							"points": [
-								{
-									"tick": 8,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 10,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								53
-							],
-							"points": [
-								{
-									"tick": 10,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 12,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								53
-							],
-							"points": [
-								{
-									"tick": 12,
-									"pitchBend": 0,
-									"volume": 33,
-									"forMod": false
-								},
-								{
-									"tick": 14,
-									"pitchBend": 0,
-									"volume": 33,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								48
-							],
-							"points": [
-								{
-									"tick": 16,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 18,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								48
-							],
-							"points": [
-								{
-									"tick": 18,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 20,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								48
-							],
-							"points": [
-								{
-									"tick": 20,
-									"pitchBend": 0,
-									"volume": 33,
-									"forMod": false
-								},
-								{
-									"tick": 22,
-									"pitchBend": 0,
-									"volume": 33,
-									"forMod": false
-								}
-							]
-						}
-					]
-				},
-				{
-					"notes": [
-						{
-							"pitches": [
-								28
-							],
-							"points": [
-								{
-									"tick": 0,
-									"pitchBend": 0,
-									"volume": 67,
-									"forMod": false
-								},
-								{
-									"tick": 4,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -4576,13 +3818,13 @@
 							],
 							"points": [
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -4595,13 +3837,13 @@
 							],
 							"points": [
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -4614,13 +3856,13 @@
 							],
 							"points": [
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -4633,13 +3875,13 @@
 							],
 							"points": [
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -4652,13 +3894,13 @@
 							],
 							"points": [
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -4681,7 +3923,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -4695,13 +3937,13 @@
 							],
 							"points": [
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -4714,13 +3956,13 @@
 							],
 							"points": [
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -4733,13 +3975,13 @@
 							],
 							"points": [
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -4752,13 +3994,13 @@
 							],
 							"points": [
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -4771,13 +4013,13 @@
 							],
 							"points": [
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -4800,7 +4042,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -4814,13 +4056,13 @@
 							],
 							"points": [
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -4833,13 +4075,13 @@
 							],
 							"points": [
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -4852,13 +4094,13 @@
 							],
 							"points": [
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -4871,13 +4113,13 @@
 							],
 							"points": [
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -4890,13 +4132,13 @@
 							],
 							"points": [
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -4919,7 +4161,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -4933,13 +4175,13 @@
 							],
 							"points": [
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -4952,13 +4194,13 @@
 							],
 							"points": [
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -4971,13 +4213,13 @@
 							],
 							"points": [
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -4990,13 +4232,13 @@
 							],
 							"points": [
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -5009,13 +4251,13 @@
 							],
 							"points": [
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 67,
 									"forMod": false
@@ -5034,32 +4276,32 @@
 				3,
 				4,
 				5,
-				11,
-				11,
-				11,
-				12,
-				11,
-				11,
-				11,
-				12,
-				11,
-				11,
-				11,
-				12,
-				11,
-				11,
-				11,
-				12,
-				11,
-				11,
-				11,
-				12,
-				13,
-				13,
-				13,
-				14
+				6,
+				6,
+				6,
+				7,
+				6,
+				6,
+				6,
+				7,
+				6,
+				6,
+				6,
+				7,
+				6,
+				6,
+				6,
+				7,
+				6,
+				6,
+				6,
+				7,
+				8,
+				8,
+				8,
+				9
 			],
-			"octaveScrollBar": 1
+			"octaveScrollBar": 2
 		},
 		{
 			"type": "pitch",
@@ -5121,8 +4363,8 @@
 					"pan": 0,
 					"panDelay": 10,
 					"chorus": 57,
-					"echoSustain": 71,
-					"echoDelayBeats": 0.75,
+					"echoSustain": 86,
+					"echoDelayBeats": 0.5,
 					"reverb": 0,
 					"fadeInSeconds": 0.0413,
 					"fadeOutTicks": -3,
@@ -5173,7 +4415,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5187,32 +4429,13 @@
 							],
 							"points": [
 								{
-									"tick": 2,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
 									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								40
-							],
-							"points": [
-								{
-									"tick": 10,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
 								},
 								{
-									"tick": 12,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5237,6 +4460,25 @@
 									"forMod": false
 								}
 							]
+						},
+						{
+							"pitches": [
+								40
+							],
+							"points": [
+								{
+									"tick": 40,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 48,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
 						}
 					]
 				},
@@ -5254,7 +4496,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5268,13 +4510,13 @@
 							],
 							"points": [
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5287,51 +4529,51 @@
 							],
 							"points": [
 								{
-									"tick": 6,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 8,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								40
-							],
-							"points": [
-								{
-									"tick": 8,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 10,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								40
-							],
-							"points": [
-								{
 									"tick": 12,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 14,
+									"tick": 16,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								40
+							],
+							"points": [
+								{
+									"tick": 16,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 20,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								40
+							],
+							"points": [
+								{
+									"tick": 24,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 28,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5344,13 +4586,13 @@
 							],
 							"points": [
 								{
-									"tick": 18,
+									"tick": 36,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5363,13 +4605,13 @@
 							],
 							"points": [
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 22,
+									"tick": 44,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5392,7 +4634,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5406,32 +4648,13 @@
 							],
 							"points": [
 								{
-									"tick": 2,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
 									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								52
-							],
-							"points": [
-								{
-									"tick": 10,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
 								},
 								{
-									"tick": 12,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5456,6 +4679,25 @@
 									"forMod": false
 								}
 							]
+						},
+						{
+							"pitches": [
+								52
+							],
+							"points": [
+								{
+									"tick": 40,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 48,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
 						}
 					]
 				},
@@ -5473,7 +4715,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5487,13 +4729,13 @@
 							],
 							"points": [
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5506,51 +4748,51 @@
 							],
 							"points": [
 								{
-									"tick": 6,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 8,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								52
-							],
-							"points": [
-								{
-									"tick": 8,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 10,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								52
-							],
-							"points": [
-								{
 									"tick": 12,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 14,
+									"tick": 16,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								52
+							],
+							"points": [
+								{
+									"tick": 16,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 20,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								52
+							],
+							"points": [
+								{
+									"tick": 24,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 28,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5563,13 +4805,13 @@
 							],
 							"points": [
 								{
-									"tick": 18,
+									"tick": 36,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5582,13 +4824,13 @@
 							],
 							"points": [
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 22,
+									"tick": 44,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5611,7 +4853,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5625,13 +4867,13 @@
 							],
 							"points": [
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5644,13 +4886,13 @@
 							],
 							"points": [
 								{
-									"tick": 6,
+									"tick": 12,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5663,13 +4905,13 @@
 							],
 							"points": [
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 10,
+									"tick": 20,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5682,13 +4924,13 @@
 							],
 							"points": [
 								{
-									"tick": 10,
+									"tick": 20,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5701,13 +4943,13 @@
 							],
 							"points": [
 								{
-									"tick": 12,
+									"tick": 24,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 14,
+									"tick": 28,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5720,13 +4962,13 @@
 							],
 							"points": [
 								{
-									"tick": 14,
+									"tick": 28,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5739,13 +4981,13 @@
 							],
 							"points": [
 								{
-									"tick": 16,
+									"tick": 32,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 18,
+									"tick": 36,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5758,13 +5000,13 @@
 							],
 							"points": [
 								{
-									"tick": 20,
+									"tick": 40,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5787,7 +5029,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5801,13 +5043,13 @@
 							],
 							"points": [
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 4,
+									"tick": 8,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5820,13 +5062,13 @@
 							],
 							"points": [
 								{
-									"tick": 6,
+									"tick": 12,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5839,13 +5081,13 @@
 							],
 							"points": [
 								{
-									"tick": 8,
+									"tick": 16,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 10,
+									"tick": 20,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -5855,82 +5097,6 @@
 						{
 							"pitches": [
 								57
-							],
-							"points": [
-								{
-									"tick": 10,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 12,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								55
-							],
-							"points": [
-								{
-									"tick": 12,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 14,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								52
-							],
-							"points": [
-								{
-									"tick": 14,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 16,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								50
-							],
-							"points": [
-								{
-									"tick": 16,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 18,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								50
 							],
 							"points": [
 								{
@@ -5946,23 +5112,84 @@
 									"forMod": false
 								}
 							]
+						},
+						{
+							"pitches": [
+								55
+							],
+							"points": [
+								{
+									"tick": 24,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 28,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								52
+							],
+							"points": [
+								{
+									"tick": 28,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 32,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								50
+							],
+							"points": [
+								{
+									"tick": 32,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 36,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								50
+							],
+							"points": [
+								{
+									"tick": 40,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 48,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
 						}
 					]
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
 				},
 				{
 					"notes": []
@@ -6087,7 +5314,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 1,
+									"tick": 2,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -6101,51 +5328,13 @@
 							],
 							"points": [
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 3,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								12
-							],
-							"points": [
-								{
-									"tick": 8,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 9,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								12
-							],
-							"points": [
-								{
-									"tick": 10,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 11,
+									"tick": 6,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -6164,7 +5353,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 17,
+									"tick": 18,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -6177,13 +5366,51 @@
 							],
 							"points": [
 								{
-									"tick": 18,
+									"tick": 20,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 19,
+									"tick": 22,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								12
+							],
+							"points": [
+								{
+									"tick": 32,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 34,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								12
+							],
+							"points": [
+								{
+									"tick": 36,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 38,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -6206,7 +5433,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 1,
+									"tick": 2,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -6220,51 +5447,13 @@
 							],
 							"points": [
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 3,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								12
-							],
-							"points": [
-								{
-									"tick": 8,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 9,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								12
-							],
-							"points": [
-								{
-									"tick": 10,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 11,
+									"tick": 6,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -6283,26 +5472,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 17,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								12
-							],
-							"points": [
-								{
 									"tick": 18,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 19,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -6321,26 +5491,26 @@
 									"forMod": false
 								},
 								{
-									"tick": 21,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								12
-							],
-							"points": [
-								{
 									"tick": 22,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								12
+							],
+							"points": [
+								{
+									"tick": 32,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
 								},
 								{
-									"tick": 23,
+									"tick": 34,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -6353,13 +5523,70 @@
 							],
 							"points": [
 								{
-									"tick": 23,
+									"tick": 36,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 38,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								12
+							],
+							"points": [
+								{
+									"tick": 40,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 42,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								12
+							],
+							"points": [
+								{
+									"tick": 44,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 46,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								12
+							],
+							"points": [
+								{
+									"tick": 46,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -6367,21 +5594,6 @@
 							]
 						}
 					]
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
 				},
 				{
 					"notes": []
@@ -6518,7 +5730,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 1,
+									"tick": 2,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -6532,51 +5744,13 @@
 							],
 							"points": [
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 3,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								12
-							],
-							"points": [
-								{
-									"tick": 8,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 9,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								12
-							],
-							"points": [
-								{
-									"tick": 10,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 11,
+									"tick": 6,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -6595,7 +5769,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 17,
+									"tick": 18,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -6608,13 +5782,51 @@
 							],
 							"points": [
 								{
-									"tick": 18,
+									"tick": 20,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 19,
+									"tick": 22,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								12
+							],
+							"points": [
+								{
+									"tick": 32,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 34,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								12
+							],
+							"points": [
+								{
+									"tick": 36,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 38,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -6637,7 +5849,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 1,
+									"tick": 2,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -6651,51 +5863,13 @@
 							],
 							"points": [
 								{
-									"tick": 2,
+									"tick": 4,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 3,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								12
-							],
-							"points": [
-								{
-									"tick": 8,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 9,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								12
-							],
-							"points": [
-								{
-									"tick": 10,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 11,
+									"tick": 6,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -6714,26 +5888,7 @@
 									"forMod": false
 								},
 								{
-									"tick": 17,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								12
-							],
-							"points": [
-								{
 									"tick": 18,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								},
-								{
-									"tick": 19,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -6752,26 +5907,26 @@
 									"forMod": false
 								},
 								{
-									"tick": 21,
-									"pitchBend": 0,
-									"volume": 100,
-									"forMod": false
-								}
-							]
-						},
-						{
-							"pitches": [
-								12
-							],
-							"points": [
-								{
 									"tick": 22,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								12
+							],
+							"points": [
+								{
+									"tick": 32,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
 								},
 								{
-									"tick": 23,
+									"tick": 34,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -6784,13 +5939,70 @@
 							],
 							"points": [
 								{
-									"tick": 23,
+									"tick": 36,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
 								},
 								{
-									"tick": 24,
+									"tick": 38,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								12
+							],
+							"points": [
+								{
+									"tick": 40,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 42,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								12
+							],
+							"points": [
+								{
+									"tick": 44,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 46,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						},
+						{
+							"pitches": [
+								12
+							],
+							"points": [
+								{
+									"tick": 46,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 48,
 									"pitchBend": 0,
 									"volume": 100,
 									"forMod": false
@@ -6798,21 +6010,6 @@
 							]
 						}
 					]
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
-				},
-				{
-					"notes": []
 				},
 				{
 					"notes": []
