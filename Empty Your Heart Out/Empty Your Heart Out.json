@@ -1,22 +1,32 @@
 {
+	"name": "Empty Your Heart Out",
 	"format": "BeepBox",
-	"version": 9,
-	"scale": "normal :(",
+	"version": 5,
+	"scale": "Free",
 	"key": "C",
 	"introBars": 0,
 	"loopBars": 36,
 	"beatsPerBar": 12,
 	"ticksPerBeat": 4,
 	"beatsPerMinute": 150,
+	"reverb": 0,
+	"masterGain": 1,
+	"compressionThreshold": 1,
+	"limitThreshold": 1,
+	"limitDecay": 4,
+	"limitRise": 4000,
+	"limitRatio": 1,
+	"compressionRatio": 1,
 	"layeredInstruments": false,
 	"patternInstruments": false,
 	"channels": [
 		{
 			"type": "pitch",
+			"name": "",
 			"instruments": [
 				{
 					"type": "FM",
-					"volume": 80,
+					"volume": 23,
 					"eqFilter": [
 						{
 							"type": "low-pass",
@@ -24,14 +34,29 @@
 							"linearGain": 1
 						}
 					],
+					"eqFilterType": false,
+					"eqSimpleCut": 10,
+					"eqSimplePeak": 0,
+					"eqSubFilters0": [
+						{
+							"type": "low-pass",
+							"cutoffHz": 4756.83,
+							"linearGain": 1
+						}
+					],
 					"effects": [
+						"panning",
 						"chord type",
 						"chorus",
 						"reverb"
 					],
 					"chord": "strum",
+					"fastTwoNoteArp": false,
+					"arpeggioSpeed": 12,
+					"pan": 0,
+					"panDelay": 10,
 					"chorus": 100,
-					"reverb": 100,
+					"reverb": 71,
 					"fadeInSeconds": 0,
 					"fadeOutTicks": 48,
 					"algorithm": "1←(2 3 4)",
@@ -40,19 +65,27 @@
 					"operators": [
 						{
 							"frequency": "1×",
-							"amplitude": 14
+							"amplitude": 14,
+							"waveform": "sine",
+							"pulseWidth": 5
 						},
 						{
 							"frequency": "1×",
-							"amplitude": 6
+							"amplitude": 6,
+							"waveform": "sine",
+							"pulseWidth": 5
 						},
 						{
 							"frequency": "3×",
-							"amplitude": 7
+							"amplitude": 7,
+							"waveform": "sine",
+							"pulseWidth": 5
 						},
 						{
 							"frequency": "1×",
-							"amplitude": 7
+							"amplitude": 7,
+							"waveform": "sine",
+							"pulseWidth": 5
 						}
 					],
 					"envelopes": [
@@ -85,12 +118,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							],
 							"continuesLastPattern": false
@@ -103,12 +138,14 @@
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -120,12 +157,14 @@
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -137,12 +176,14 @@
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -154,12 +195,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -171,12 +214,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -188,12 +233,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -205,12 +252,14 @@
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -222,12 +271,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -239,12 +290,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -256,12 +309,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -273,12 +328,14 @@
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -290,12 +347,14 @@
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -307,12 +366,14 @@
 								{
 									"tick": 40,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -324,12 +385,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -341,12 +404,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -362,12 +427,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							],
 							"continuesLastPattern": false
@@ -380,12 +447,14 @@
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -397,12 +466,14 @@
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -414,12 +485,14 @@
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -431,12 +504,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -448,12 +523,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -465,12 +542,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -482,12 +561,14 @@
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -499,12 +580,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -516,12 +599,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -533,12 +618,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -550,12 +637,14 @@
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -567,12 +656,14 @@
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -584,12 +675,14 @@
 								{
 									"tick": 40,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -601,12 +694,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -618,12 +713,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -639,12 +736,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							],
 							"continuesLastPattern": false
@@ -657,12 +756,14 @@
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								},
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								}
 							]
 						},
@@ -674,12 +775,14 @@
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -691,12 +794,14 @@
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -708,12 +813,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								},
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								}
 							]
 						},
@@ -725,12 +832,14 @@
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -742,12 +851,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -759,12 +870,14 @@
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								},
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								}
 							]
 						},
@@ -776,12 +889,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -793,12 +908,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -810,12 +927,14 @@
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								},
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								}
 							]
 						},
@@ -827,12 +946,14 @@
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -844,12 +965,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -861,12 +984,14 @@
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								},
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								}
 							]
 						},
@@ -878,12 +1003,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -895,12 +1022,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -912,12 +1041,14 @@
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								},
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								}
 							]
 						},
@@ -929,12 +1060,14 @@
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -946,12 +1079,14 @@
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -963,12 +1098,14 @@
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								},
 								{
 									"tick": 40,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								}
 							]
 						},
@@ -980,12 +1117,14 @@
 								{
 									"tick": 40,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -997,12 +1136,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1014,12 +1155,14 @@
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								},
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								}
 							]
 						},
@@ -1031,12 +1174,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -1052,12 +1197,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							],
 							"continuesLastPattern": false
@@ -1070,12 +1217,14 @@
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								},
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								}
 							]
 						},
@@ -1087,12 +1236,14 @@
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1104,12 +1255,14 @@
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1121,12 +1274,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								},
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								}
 							]
 						},
@@ -1138,12 +1293,14 @@
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1155,12 +1312,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1172,12 +1331,14 @@
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								},
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								}
 							]
 						},
@@ -1189,12 +1350,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1206,12 +1369,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1223,12 +1388,14 @@
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								},
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								}
 							]
 						},
@@ -1240,12 +1407,14 @@
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1257,12 +1426,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1274,12 +1445,14 @@
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								},
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								}
 							]
 						},
@@ -1291,12 +1464,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1308,12 +1483,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1325,12 +1502,14 @@
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								},
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								}
 							]
 						},
@@ -1342,12 +1521,14 @@
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1359,12 +1540,14 @@
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1376,12 +1559,14 @@
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								},
 								{
 									"tick": 40,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								}
 							]
 						},
@@ -1393,12 +1578,14 @@
 								{
 									"tick": 40,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1410,12 +1597,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1427,12 +1616,14 @@
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								},
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 67
+									"volume": 67,
+									"forMod": false
 								}
 							]
 						},
@@ -1444,12 +1635,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -1516,10 +1709,11 @@
 		},
 		{
 			"type": "pitch",
+			"name": "",
 			"instruments": [
 				{
 					"type": "Picked String",
-					"volume": 100,
+					"volume": 22,
 					"eqFilter": [
 						{
 							"type": "low-pass",
@@ -1532,13 +1726,39 @@
 							"linearGain": 0.5
 						}
 					],
+					"eqFilterType": false,
+					"eqSimpleCut": 10,
+					"eqSimplePeak": 0,
+					"eqSubFilters0": [
+						{
+							"type": "low-pass",
+							"cutoffHz": 3363.59,
+							"linearGain": 1
+						},
+						{
+							"type": "high-pass",
+							"cutoffHz": 353.55,
+							"linearGain": 0.5
+						}
+					],
 					"effects": [
+						"panning",
 						"note filter",
 						"bitcrusher",
 						"echo",
 						"reverb"
 					],
+					"noteFilterType": false,
+					"noteSimpleCut": 10,
+					"noteSimplePeak": 0,
 					"noteFilter": [
+						{
+							"type": "low-pass",
+							"cutoffHz": 3363.59,
+							"linearGain": 1
+						}
+					],
+					"noteSubFilters0": [
 						{
 							"type": "low-pass",
 							"cutoffHz": 3363.59,
@@ -1547,9 +1767,11 @@
 					],
 					"bitcrusherOctave": 6.5,
 					"bitcrusherQuantization": 29,
-					"echoSustain": 57,
+					"pan": 0,
+					"panDelay": 10,
+					"echoSustain": 43,
 					"echoDelayBeats": 1,
-					"reverb": 100,
+					"reverb": 77,
 					"fadeInSeconds": 0,
 					"fadeOutTicks": -12,
 					"harmonics": [
@@ -1603,12 +1825,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							],
 							"continuesLastPattern": false
@@ -1621,12 +1845,14 @@
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1638,12 +1864,14 @@
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1655,12 +1883,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1672,12 +1902,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1689,12 +1921,14 @@
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1706,12 +1940,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1723,12 +1959,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1740,12 +1978,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1757,12 +1997,14 @@
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1774,12 +2016,14 @@
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1791,12 +2035,14 @@
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1808,12 +2054,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1825,12 +2073,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -1846,12 +2096,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							],
 							"continuesLastPattern": false
@@ -1864,12 +2116,14 @@
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1881,12 +2135,14 @@
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1898,12 +2154,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1915,12 +2173,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1932,12 +2192,14 @@
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1949,12 +2211,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1966,12 +2230,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -1983,12 +2249,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2000,12 +2268,14 @@
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2017,12 +2287,14 @@
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2034,12 +2306,14 @@
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2051,12 +2325,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2068,12 +2344,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -2089,12 +2367,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							],
 							"continuesLastPattern": false
@@ -2107,12 +2387,14 @@
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2124,12 +2406,14 @@
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2141,12 +2425,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2158,12 +2444,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2175,12 +2463,14 @@
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2192,12 +2482,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2209,12 +2501,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2226,12 +2520,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2243,12 +2539,14 @@
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2260,12 +2558,14 @@
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2277,12 +2577,14 @@
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2294,12 +2596,14 @@
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 40,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2311,12 +2615,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2328,12 +2634,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -2349,12 +2657,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							],
 							"continuesLastPattern": false
@@ -2367,12 +2677,14 @@
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2384,12 +2696,14 @@
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2401,12 +2715,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2418,12 +2734,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2435,12 +2753,14 @@
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2452,12 +2772,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2469,12 +2791,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2486,12 +2810,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2503,12 +2829,14 @@
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2520,12 +2848,14 @@
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2537,12 +2867,14 @@
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2554,12 +2886,14 @@
 								{
 									"tick": 40,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2571,12 +2905,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2588,12 +2924,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -2609,12 +2947,14 @@
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2626,12 +2966,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2643,12 +2985,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2660,12 +3004,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2677,12 +3023,14 @@
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2694,12 +3042,14 @@
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2711,12 +3061,14 @@
 								{
 									"tick": 40,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2728,12 +3080,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2745,12 +3099,14 @@
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2762,12 +3118,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -2783,12 +3141,14 @@
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2800,12 +3160,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2817,12 +3179,14 @@
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2834,12 +3198,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2851,12 +3217,14 @@
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2868,12 +3236,14 @@
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2885,12 +3255,14 @@
 								{
 									"tick": 40,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2902,12 +3274,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2919,12 +3293,14 @@
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2936,12 +3312,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -2957,12 +3335,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							],
 							"continuesLastPattern": false
@@ -2975,12 +3355,14 @@
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -2992,12 +3374,14 @@
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3009,12 +3393,14 @@
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3026,12 +3412,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3043,12 +3431,14 @@
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3060,12 +3450,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3077,12 +3469,14 @@
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3094,12 +3488,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3111,12 +3507,14 @@
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3128,12 +3526,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3145,12 +3545,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3162,12 +3564,14 @@
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3179,12 +3583,14 @@
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3196,12 +3602,14 @@
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3213,12 +3621,14 @@
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 40,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3230,12 +3640,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3247,12 +3659,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -3268,12 +3682,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							],
 							"continuesLastPattern": false
@@ -3286,12 +3702,14 @@
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3303,12 +3721,14 @@
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3320,12 +3740,14 @@
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3337,12 +3759,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3354,12 +3778,14 @@
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3371,12 +3797,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3388,12 +3816,14 @@
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3405,12 +3835,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3422,12 +3854,14 @@
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3439,12 +3873,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3456,12 +3892,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3473,12 +3911,14 @@
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3490,12 +3930,14 @@
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3507,12 +3949,14 @@
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3524,12 +3968,14 @@
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 40,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3541,12 +3987,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3558,12 +4006,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -3579,12 +4029,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							],
 							"continuesLastPattern": false
@@ -3597,12 +4049,14 @@
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3614,12 +4068,14 @@
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3631,12 +4087,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3648,12 +4106,14 @@
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3665,12 +4125,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3682,12 +4144,14 @@
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3699,12 +4163,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3716,12 +4182,14 @@
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3733,12 +4201,14 @@
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3750,12 +4220,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3767,12 +4239,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3784,12 +4258,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3801,12 +4277,14 @@
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3818,12 +4296,14 @@
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3835,12 +4315,14 @@
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3852,12 +4334,14 @@
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 40,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3869,12 +4353,14 @@
 								{
 									"tick": 40,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3886,12 +4372,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3903,12 +4391,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -3924,12 +4414,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							],
 							"continuesLastPattern": false
@@ -3942,12 +4434,14 @@
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3959,12 +4453,14 @@
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3976,12 +4472,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -3993,12 +4491,14 @@
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4010,12 +4510,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4027,12 +4529,14 @@
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4044,12 +4548,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4061,12 +4567,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4078,12 +4586,14 @@
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4095,12 +4605,14 @@
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4112,12 +4624,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4129,12 +4643,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4146,12 +4662,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4163,12 +4681,14 @@
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4180,12 +4700,14 @@
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4197,12 +4719,14 @@
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4214,12 +4738,14 @@
 								{
 									"tick": 40,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4231,12 +4757,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4248,12 +4776,14 @@
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4265,12 +4795,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -4319,16 +4851,25 @@
 		},
 		{
 			"type": "pitch",
+			"name": "",
 			"instruments": [
 				{
 					"type": "FM",
-					"volume": 100,
+					"volume": 18,
 					"eqFilter": [],
+					"eqFilterType": false,
+					"eqSimpleCut": 10,
+					"eqSimplePeak": 0,
 					"preset": 897,
+					"eqSubFilters0": [],
 					"effects": [
+						"panning",
 						"note filter",
 						"chorus"
 					],
+					"noteFilterType": false,
+					"noteSimpleCut": 10,
+					"noteSimplePeak": 0,
 					"noteFilter": [
 						{
 							"type": "low-pass",
@@ -4336,6 +4877,15 @@
 							"linearGain": 1
 						}
 					],
+					"noteSubFilters0": [
+						{
+							"type": "low-pass",
+							"cutoffHz": 3363.59,
+							"linearGain": 1
+						}
+					],
+					"pan": 0,
+					"panDelay": 10,
 					"chorus": 100,
 					"fadeInSeconds": 0.0575,
 					"fadeOutTicks": 96,
@@ -4345,19 +4895,27 @@
 					"operators": [
 						{
 							"frequency": "1×",
-							"amplitude": 14
+							"amplitude": 14,
+							"waveform": "sine",
+							"pulseWidth": 5
 						},
 						{
 							"frequency": "1×",
-							"amplitude": 6
+							"amplitude": 6,
+							"waveform": "sine",
+							"pulseWidth": 5
 						},
 						{
 							"frequency": "1×",
-							"amplitude": 0
+							"amplitude": 0,
+							"waveform": "sine",
+							"pulseWidth": 5
 						},
 						{
 							"frequency": "1×",
-							"amplitude": 0
+							"amplitude": 0,
+							"waveform": "sine",
+							"pulseWidth": 5
 						}
 					],
 					"envelopes": [
@@ -4384,12 +4942,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							],
 							"continuesLastPattern": false
@@ -4402,12 +4962,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -4423,12 +4985,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							],
 							"continuesLastPattern": false
@@ -4441,12 +5005,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -4519,17 +5085,29 @@
 		},
 		{
 			"type": "pitch",
+			"name": "",
 			"instruments": [
 				{
 					"type": "FM",
-					"volume": 80,
+					"volume": 25,
 					"eqFilter": [],
+					"eqFilterType": false,
+					"eqSimpleCut": 10,
+					"eqSimplePeak": 0,
+					"eqSubFilters0": [],
 					"effects": [
+						"panning",
 						"vibrato",
 						"echo",
 						"reverb"
 					],
 					"vibrato": "light",
+					"vibratoDepth": 0.15,
+					"vibratoDelay": 0,
+					"vibratoSpeed": 10,
+					"vibratoType": 0,
+					"pan": 0,
+					"panDelay": 10,
 					"echoSustain": 57,
 					"echoDelayBeats": 1,
 					"reverb": 100,
@@ -4541,19 +5119,27 @@
 					"operators": [
 						{
 							"frequency": "4×",
-							"amplitude": 14
+							"amplitude": 14,
+							"waveform": "sine",
+							"pulseWidth": 5
 						},
 						{
 							"frequency": "1×",
-							"amplitude": 6
+							"amplitude": 6,
+							"waveform": "sine",
+							"pulseWidth": 5
 						},
 						{
 							"frequency": "1×",
-							"amplitude": 0
+							"amplitude": 0,
+							"waveform": "sine",
+							"pulseWidth": 5
 						},
 						{
 							"frequency": "1×",
-							"amplitude": 0
+							"amplitude": 0,
+							"waveform": "sine",
+							"pulseWidth": 5
 						}
 					],
 					"envelopes": []
@@ -4572,12 +5158,14 @@
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4591,12 +5179,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4610,12 +5200,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4629,12 +5221,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4648,12 +5242,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -4670,12 +5266,14 @@
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4688,12 +5286,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4706,12 +5306,14 @@
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4724,12 +5326,14 @@
 								{
 									"tick": 40,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4742,12 +5346,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -4764,12 +5370,14 @@
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4782,12 +5390,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4800,12 +5410,14 @@
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4818,12 +5430,14 @@
 								{
 									"tick": 40,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4836,12 +5450,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -4859,12 +5475,14 @@
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4876,12 +5494,14 @@
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4895,12 +5515,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4912,12 +5534,14 @@
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4931,12 +5555,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4948,12 +5574,14 @@
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4967,12 +5595,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -4986,12 +5616,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -5009,12 +5641,14 @@
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -5026,12 +5660,14 @@
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -5045,12 +5681,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -5062,12 +5700,14 @@
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -5081,12 +5721,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -5098,12 +5740,14 @@
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -5117,12 +5761,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -5136,12 +5782,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -5205,13 +5853,22 @@
 		},
 		{
 			"type": "pitch",
+			"name": "",
 			"instruments": [
 				{
 					"type": "FM",
-					"volume": 80,
+					"volume": 20,
 					"eqFilter": [],
+					"eqFilterType": false,
+					"eqSimpleCut": 10,
+					"eqSimplePeak": 0,
 					"preset": 971,
-					"effects": [],
+					"eqSubFilters0": [],
+					"effects": [
+						"panning"
+					],
+					"pan": 0,
+					"panDelay": 10,
 					"fadeInSeconds": 0,
 					"fadeOutTicks": -6,
 					"algorithm": "1←(2 3 4)",
@@ -5220,19 +5877,27 @@
 					"operators": [
 						{
 							"frequency": "8×",
-							"amplitude": 15
+							"amplitude": 15,
+							"waveform": "sine",
+							"pulseWidth": 5
 						},
 						{
 							"frequency": "1×",
-							"amplitude": 0
+							"amplitude": 0,
+							"waveform": "sine",
+							"pulseWidth": 5
 						},
 						{
 							"frequency": "1×",
-							"amplitude": 0
+							"amplitude": 0,
+							"waveform": "sine",
+							"pulseWidth": 5
 						},
 						{
 							"frequency": "1×",
-							"amplitude": 0
+							"amplitude": 0,
+							"waveform": "sine",
+							"pulseWidth": 5
 						}
 					],
 					"envelopes": [
@@ -5259,12 +5924,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							],
 							"continuesLastPattern": false
@@ -5277,12 +5944,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -5294,12 +5963,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						},
@@ -5311,12 +5982,14 @@
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								}
 							]
 						}
@@ -5392,11 +6065,22 @@
 		},
 		{
 			"type": "drum",
+			"name": "",
 			"instruments": [
 				{
 					"type": "noise",
-					"volume": 80,
+					"volume": 22,
 					"eqFilter": [
+						{
+							"type": "low-pass",
+							"cutoffHz": 16000,
+							"linearGain": 0.3536
+						}
+					],
+					"eqFilterType": false,
+					"eqSimpleCut": 10,
+					"eqSimplePeak": 0,
+					"eqSubFilters0": [
 						{
 							"type": "low-pass",
 							"cutoffHz": 16000,
@@ -5407,6 +6091,7 @@
 						"panning"
 					],
 					"pan": -100,
+					"panDelay": 10,
 					"fadeInSeconds": 0,
 					"fadeOutTicks": -3,
 					"wave": "retro",
@@ -5424,12 +6109,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							],
 							"continuesLastPattern": false
@@ -5442,12 +6129,14 @@
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 3,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5459,12 +6148,14 @@
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 5,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5478,12 +6169,14 @@
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5495,12 +6188,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5512,12 +6207,14 @@
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 11,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5529,12 +6226,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5546,12 +6245,14 @@
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 15,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5563,12 +6264,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 17,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5582,12 +6285,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5599,12 +6304,14 @@
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5616,12 +6323,14 @@
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 23,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5633,12 +6342,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5650,12 +6361,14 @@
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 27,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5667,12 +6380,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 29,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5686,12 +6401,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5703,12 +6420,14 @@
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5720,12 +6439,14 @@
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 35,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5737,12 +6458,14 @@
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5754,12 +6477,14 @@
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 39,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5771,12 +6496,14 @@
 								{
 									"tick": 40,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 41,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5790,12 +6517,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5807,12 +6536,14 @@
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5824,12 +6555,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 47,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						}
@@ -5845,12 +6578,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							],
 							"continuesLastPattern": false
@@ -5863,12 +6598,14 @@
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 3,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5880,12 +6617,14 @@
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 5,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5899,12 +6638,14 @@
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5916,12 +6657,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5933,12 +6676,14 @@
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 11,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5950,12 +6695,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5967,12 +6714,14 @@
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 15,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -5984,12 +6733,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 17,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6003,12 +6754,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6020,12 +6773,14 @@
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6037,12 +6792,14 @@
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 23,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6054,12 +6811,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6071,12 +6830,14 @@
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 27,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6088,12 +6849,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 29,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6107,12 +6870,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6124,12 +6889,14 @@
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6141,12 +6908,14 @@
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 35,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6158,12 +6927,14 @@
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6175,12 +6946,14 @@
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 39,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6192,12 +6965,14 @@
 								{
 									"tick": 40,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 41,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6211,12 +6986,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6230,12 +7007,14 @@
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6247,12 +7026,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 47,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6266,12 +7047,14 @@
 								{
 									"tick": 47,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						}
@@ -6287,12 +7070,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							],
 							"continuesLastPattern": false
@@ -6307,12 +7092,14 @@
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6326,12 +7113,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6343,12 +7132,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6362,12 +7153,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6381,12 +7174,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						}
@@ -6402,12 +7197,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							],
 							"continuesLastPattern": false
@@ -6422,12 +7219,14 @@
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6441,12 +7240,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6458,12 +7259,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6477,12 +7280,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6496,12 +7301,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6515,12 +7322,14 @@
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6534,12 +7343,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						}
@@ -6557,12 +7368,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6576,12 +7389,14 @@
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6595,12 +7410,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						}
@@ -6663,11 +7480,22 @@
 		},
 		{
 			"type": "drum",
+			"name": "",
 			"instruments": [
 				{
 					"type": "noise",
-					"volume": 80,
+					"volume": 22,
 					"eqFilter": [
+						{
+							"type": "low-pass",
+							"cutoffHz": 16000,
+							"linearGain": 0.3536
+						}
+					],
+					"eqFilterType": false,
+					"eqSimpleCut": 10,
+					"eqSimplePeak": 0,
+					"eqSubFilters0": [
 						{
 							"type": "low-pass",
 							"cutoffHz": 16000,
@@ -6678,6 +7506,7 @@
 						"panning"
 					],
 					"pan": 100,
+					"panDelay": 10,
 					"fadeInSeconds": 0,
 					"fadeOutTicks": -3,
 					"wave": "retro",
@@ -6695,12 +7524,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							],
 							"continuesLastPattern": false
@@ -6713,12 +7544,14 @@
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 3,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6730,12 +7563,14 @@
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 5,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6749,12 +7584,14 @@
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6766,12 +7603,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6783,12 +7622,14 @@
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 11,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6800,12 +7641,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6817,12 +7660,14 @@
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 15,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6834,12 +7679,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 17,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6853,12 +7700,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6870,12 +7719,14 @@
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6887,12 +7738,14 @@
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 23,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6904,12 +7757,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6921,12 +7776,14 @@
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 27,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6938,12 +7795,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 29,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6957,12 +7816,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6974,12 +7835,14 @@
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -6991,12 +7854,14 @@
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 35,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7008,12 +7873,14 @@
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7025,12 +7892,14 @@
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 39,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7042,12 +7911,14 @@
 								{
 									"tick": 40,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 41,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7061,12 +7932,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7078,12 +7951,14 @@
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7095,12 +7970,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 47,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						}
@@ -7116,12 +7993,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							],
 							"continuesLastPattern": false
@@ -7134,12 +8013,14 @@
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 3,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7151,12 +8032,14 @@
 								{
 									"tick": 4,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 5,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7170,12 +8053,14 @@
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7187,12 +8072,14 @@
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7204,12 +8091,14 @@
 								{
 									"tick": 10,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 11,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7221,12 +8110,14 @@
 								{
 									"tick": 12,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7238,12 +8129,14 @@
 								{
 									"tick": 14,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 15,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7255,12 +8148,14 @@
 								{
 									"tick": 16,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 17,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7274,12 +8169,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7291,12 +8188,14 @@
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7308,12 +8207,14 @@
 								{
 									"tick": 22,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 23,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7325,12 +8226,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7342,12 +8245,14 @@
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 27,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7359,12 +8264,14 @@
 								{
 									"tick": 28,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 29,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7378,12 +8285,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7395,12 +8304,14 @@
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7412,12 +8323,14 @@
 								{
 									"tick": 34,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 35,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7429,12 +8342,14 @@
 								{
 									"tick": 36,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7446,12 +8361,14 @@
 								{
 									"tick": 38,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 39,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7463,12 +8380,14 @@
 								{
 									"tick": 40,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 41,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7482,12 +8401,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7501,12 +8422,14 @@
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7518,12 +8441,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 47,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7537,12 +8462,14 @@
 								{
 									"tick": 47,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						}
@@ -7558,12 +8485,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							],
 							"continuesLastPattern": false
@@ -7578,12 +8507,14 @@
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7597,12 +8528,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7614,12 +8547,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7633,12 +8568,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7652,12 +8589,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						}
@@ -7673,12 +8612,14 @@
 								{
 									"tick": 0,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 2,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							],
 							"continuesLastPattern": false
@@ -7693,12 +8634,14 @@
 								{
 									"tick": 6,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 8,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7712,12 +8655,14 @@
 								{
 									"tick": 18,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 20,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7729,12 +8674,14 @@
 								{
 									"tick": 24,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 26,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7748,12 +8695,14 @@
 								{
 									"tick": 30,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 32,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7767,12 +8716,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7786,12 +8737,14 @@
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7805,12 +8758,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						}
@@ -7828,12 +8783,14 @@
 								{
 									"tick": 42,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7847,12 +8804,14 @@
 								{
 									"tick": 44,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						},
@@ -7866,12 +8825,14 @@
 								{
 									"tick": 46,
 									"pitchBend": 0,
-									"volume": 100
+									"volume": 100,
+									"forMod": false
 								},
 								{
 									"tick": 48,
 									"pitchBend": 0,
-									"volume": 0
+									"volume": 0,
+									"forMod": false
 								}
 							]
 						}
